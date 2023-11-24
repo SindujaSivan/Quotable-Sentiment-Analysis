@@ -1,13 +1,10 @@
 **Problem Statement:**
-
+<div style="text-align: justify;">
 In the era of vast digital content, extracting meaningful insights from a diverse range of sources is crucial for understanding public sentiments and opinions. One valuable source of expressive content is quote websites, where individuals share their thoughts and perspectives on various aspects of life. The challenge lies in efficiently analyzing and visualizing the sentiments expressed by different authors in these quotes.
 
 Our project aims to address this challenge by conducting sentiment analysis on a collection of quotes gathered from a prominent quote website. Through web scraping, we have obtained a dataset containing quotes along with their respective authors. The primary goal is to explore the sentiments conveyed by these authors and visualize the emotional tone of their quotes.
 
-![Quote Scrape Image](assets/Quotes_Scrape.png)
-<span style="font-size: 8pt;">*Picture reference: [Quotes to Scrape](https://quotes.toscrape.com/)*</span>
-
-
+![Quote Scrape Image](assets/Quotes_Scrape.png) <span style="font-size: 8pt;">*Picture reference: [Quotes to Scrape](https://quotes.toscrape.com/)* </span>
 
 **Objectives:**
 
@@ -28,3 +25,4 @@ Understanding the sentiments expressed by authors on a quote website can offer v
 **Expected Output:**
 
 The project aims to deliver a comprehensive analysis report, including sentiment distribution statistics, author-based sentiment summaries, and visually appealing word cloud representations. The insights gained from this analysis will contribute to a nuanced understanding of the emotional content present on the quote website.
+</div>
