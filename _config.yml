@@ -1,14 +1,22 @@
 theme: jekyll-theme-minimal
-title: Python College Analytics
+title: Quotable Sentiment Analysis
 description: >
-  <h3>College Data Analysis using basic python commandst</h3>
+  <h3>Emotional Insights from Quotable Voices: Sentiment Analysis and Word Cloud Visualization of Quotes from quotes.toscrape.com</h3>
   <p>
     <br>
     <br>
     <b>Libraries:</b>
     <ul>
       <li>Pandas</li>
-      <li>DataFrame</li>
+      <li>requests</li>
+      <li>BeautifulSoup</li>
+      <li>re</li>
+      <li>nltk</li>
+      <li>stopwords</li>
+      <li>WordCloud</li>
+      <li>string</li>
+      <li>matplotlib.pyplot</li>
+      <li>string</li>
     </ul>
     <br>
   </p>
