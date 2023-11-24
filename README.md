@@ -65,30 +65,31 @@ Compiled the extracted data into a structured DataFrame using the Pandas library
 <p style="text-align: justify;"> 
 In our ongoing effort to refine the dataset for sentiment analysis and insightful exploration, we implemented advanced text preprocessing techniques. Specifically, we focused on removing stopwords and conducted a comprehensive analysis of the updated text.
 </p>
-### Stopword Removal:
+
+### Stopword Removal
 <div style="text-align: justify;"> 
 - Utilized NLTK's list of English stopwords to remove common words that may not contribute significant meaning.
 - Implemented a custom function to remove stopwords from each quote.
 </div>
 
-### Updated Quote Column:
+### Updated Quote Column
 <div style="text-align: justify;"> 
 - Created a new column, 'Quote_Upd,' containing quotes after the removal of stopwords.
 </div>
 
-### Stopword and Uppercase Analysis After Preprocessing:
+### Stopword and Uppercase Analysis After Preprocessing
 <div style="text-align: justify;"> 
 - Calculated the count of stopwords, uppercase words, and uppercase letters in the updated quotes.
 - This analysis provides insights into the impact of stopword removal on the composition of the quotes.
 </div>
 
-### Words Starting with '@' (At the Rate) and Hashtags After Preprocessing:
+### Words Starting with '@' (At the Rate) and Hashtags After Preprocessing
 <div style="text-align: justify;"> 
 - Quantified the occurrence of words starting with '@' and '#' in the updated quotes.
 - This analysis reveals changes in social media-style content after stopword removal.
 </div>
 
-### Numeric Characters and Punctuation After Preprocessing:
+### Numeric Characters and Punctuation After Preprocessing
 <div style="text-align: justify;"> 
 - Examined the count of numeric characters and punctuation marks in the updated quotes.
 - This analysis highlights shifts in numerical information and punctuation usage.
@@ -104,7 +105,7 @@ In our continued efforts to visually represent the essence of the quotes in a ca
 
 ### WordCloud Generation
 <div style="text-align: justify;"> 
-- Utilized the WordCloud library to generate a visually appealing WordCloud image.
+- Utilized the WordCloud library to generate a visually appealing WordCloud image. <br>
 - The cleaned and preprocessed text was used as the input for WordCloud creation.
 </div>
 
@@ -114,29 +115,29 @@ In our continued efforts to visually represent the essence of the quotes in a ca
 # Insights
 <p style="text-align: justify;"> The WordCloud analysis of the quotes dataset reveals a thematic landscape centered around key concepts. Prominent words such as "absolute," "without," "miracle," "thinking," "better," "know," and "ways" offer a consolidated perspective on the prevalent themes within the dataset</p>
 
-### Certainty and Principles:
+### Certainty and Principles
 <p style="text-align: justify;"> The presence of "absolute" suggests a focus on certainty, unwavering principles, or fundamental truths within the quotes. </p> 
 
-### Freedom and Simplicity:
+### Freedom and Simplicity
 <p style="text-align: justify;"> The inclusion of "without" indicates a thematic exploration of freedom from constraints, simplicity, and unburdened perspectives.</p>
 
-### Wonder and Extraordinary Occurrences:
+### Wonder and Extraordinary Occurrences
 <p style="text-align: justify;"> The word "miracle" introduces a theme of wonder, magic, and the recognition of extraordinary occurrences in everyday life.</p>
 
-### Cognitive Processes and Reflection:
+### Cognitive Processes and Reflection
 <p style="text-align: justify;"> The emphasis on "thinking" suggests a focus on thoughts, cognitive processes, and reflective perspectives within the quotes.</p>
 
-### Improvement and Positive Change:
+### Improvement and Positive Change
 <p style="text-align: justify;"> The presence of "better" indicates a thematic emphasis on improvement, growth, and the pursuit of positive change.</p>
 
-### Knowledge and Understanding:
+### Knowledge and Understanding
 <p style="text-align: justify;"> The word "know" highlights a thematic exploration of knowledge, wisdom, and the pursuit of understanding.</p>
 
-### Diverse Approaches and Paths:
+### Diverse Approaches and Paths
 <p style="text-align: justify;"> The inclusion of "ways" suggests a focus on diverse approaches, paths, or methods in navigating life's challenges.</p>
 
-### Overall Tone:
+### Overall Tone
 <p style="text-align: justify;"> The WordCloud reflects a diverse and introspective collection of quotes that touch upon themes of certainty, simplicity, wonder, cognitive processes, improvement, knowledge, and diverse approaches.</p>
 
-# Next steps:
+# Next steps
 <p style="text-align: justify;"> As we proceed with sentiment analysis and more comprehensive exploration, we anticipate uncovering nuanced emotions and gaining a deeper understanding of the underlying messages within the quotes. </p>
