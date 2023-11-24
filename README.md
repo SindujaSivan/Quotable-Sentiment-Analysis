@@ -39,22 +39,23 @@ Compiled the extracted data into a structured DataFrame using the Pandas library
 <div style="text-align: justify;"> </div>
   
 ### Total Characters, Words, and Sentences  
-  <div style="text-align: justify;">  Calculated the total number of characters, words, and sentences for each quote.These metrics provide a quantitative understanding of the length and structure of the quotes.   </div>
+<div style="text-align: justify;">  Calculated the total number of characters, words, and sentences for each quote.These metrics provide a quantitative understanding of the length and structure of the quotes.   </div>
     
 ### Stopword Count
-    <div style="text-align: justify;"> Determined the count of stopwords in each quote using the NLTK library.Stopwords are common words that may not contribute significant meaning and can be indicative of writing style.</div>
+<div style="text-align: justify;"> Determined the count of stopwords in each quote using the NLTK library.Stopwords are common words that may not contribute significant meaning and can be indicative of writing style.</div>
     
 ### Uppercase Words and Letters
-      <div style="text-align: justify;">Identified the count of uppercase words and individual uppercase letters in each quote.This feature sheds light on the use of emphasis and the presence of acronyms or proper nouns. </div>
+<div style="text-align: justify;">Identified the count of uppercase words and individual uppercase letters in each quote.This feature sheds light on the use of emphasis and the presence of acronyms or proper nouns. </div>
       
 ### Words Starting with '@' (At the Rate)
-        <div style="text-align: justify;"> Quantified the occurrence of words starting with '@' in each quote.This is particularly relevant for identifying user mentions or references in social media-like contexts. </div>
+<div style="text-align: justify;"> Quantified the occurrence of words starting with '@' in each quote.This is particularly relevant for identifying user mentions or references in social media-like contexts. </div>
         
 ### Hashtags,Numeric Characters & Punctuation Count
 <div style="text-align: justify;"> 
-- Counted the occurrence of words starting with '#' in each quote. Hashtags may indicate trending topics or thematic emphasis within the quotes.
-- Computed the count of numeric characters in each quote.
-Useful for understanding the inclusion of numerical information in the quotes.
+- Counted the occurrence of words starting with '#' in each quote. Hashtags may indicate trending topics or thematic emphasis within the quotes. <br>
+- Computed the count of numeric characters in each quote. <br>
+- Useful for understanding the inclusion of numerical information in the quotes. <br>
 - Calculated the count of punctuation marks in each quote.Punctuation analysis provides insights into writing style and the emotional tone of the quotes.
 </div>
+<br>
 ![featured Image](assets/featured_data.png)
