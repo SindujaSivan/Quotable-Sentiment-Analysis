@@ -4,6 +4,11 @@ In the era of vast digital content, extracting meaningful insights from a divers
 
 Our project aims to address this challenge by conducting sentiment analysis on a collection of quotes gathered from a prominent quote website. Through web scraping, we have obtained a dataset containing quotes along with their respective authors. The primary goal is to explore the sentiments conveyed by these authors and visualize the emotional tone of their quotes.
 
+![Quote Scrape Image](assets/Quotes_Scrape.png)
+<span style="font-size: 8pt;">*Picture reference: [Quotes to Scrape](https://quotes.toscrape.com/)*</span>
+
+
+
 **Objectives:**
 
 1. **Data Collection:** Gather a diverse set of quotes from the targeted quote website using web scraping techniques. Extract relevant information, including the quote text and the corresponding author.
