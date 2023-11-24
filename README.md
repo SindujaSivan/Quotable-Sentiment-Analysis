@@ -3,7 +3,7 @@
 <div style="text-align: justify;">
 
 In the era of vast digital content, extracting meaningful insights from a diverse range of sources is crucial for understanding public sentiments and opinions. One valuable source of expressive content is quote websites, where individuals share their thoughts and perspectives on various aspects of life. The challenge lies in efficiently analyzing and visualizing the sentiments expressed by different authors in these quotes.
-
+<br>
 Our project aims to address this challenge by conducting sentiment analysis on a collection of quotes gathered from a prominent quote website. Through web scraping, we have obtained a dataset containing quotes along with their respective authors. The primary goal is to explore the sentiments conveyed by these authors and visualize the emotional tone of their quotes.
 
 </div>
@@ -13,7 +13,7 @@ Our project aims to address this challenge by conducting sentiment analysis on a
 
 # Implementation
 
-## Web Scraping for Quote Analysis
+## 1. Web Scraping for Quote Analysis
 <div style="text-align: justify;">
 The first step involved web scraping from the target website [Quotes toscrape](http://quotes.toscrape.com) to collect a rich dataset of quotes along with relevant metadata. Utilizing the Python programming language and libraries such as requests and BeautifulSoup, we sent an HTTP request to the target URL and successfully retrieved the HTML content of the page. The subsequent steps involved parsing the HTML to extract quote-related information.
 </div> 
@@ -35,7 +35,7 @@ Compiled the extracted data into a structured DataFrame using the Pandas library
 
 ![Webscrapped Image](assets/webscrapped_data.png)
 
-## Feature Engineering 
+## 2. Feature Engineering 
 <div style="text-align: justify;"> </div>
   
 ### Total Characters, Words, and Sentences  
@@ -59,3 +59,37 @@ Compiled the extracted data into a structured DataFrame using the Pandas library
 </div>
 <br>
 ![featured Image](assets/featured_data.png)
+
+## 3. Text Preprocessing and Advance analysis
+In our ongoing effort to refine the dataset for sentiment analysis and insightful exploration, we implemented advanced text preprocessing techniques. Specifically, we focused on removing stopwords and conducted a comprehensive analysis of the updated text.
+
+### Stopword Removal:
+<div style="text-align: justify;"> 
+- Utilized NLTK's list of English stopwords to remove common words that may not contribute significant meaning.
+- Implemented a custom function to remove stopwords from each quote.
+</div>
+
+### Updated Quote Column:
+<div style="text-align: justify;"> 
+- Created a new column, 'Quote_Upd,' containing quotes after the removal of stopwords.
+</div>
+
+### Stopword and Uppercase Analysis After Preprocessing:
+<div style="text-align: justify;"> 
+- Calculated the count of stopwords, uppercase words, and uppercase letters in the updated quotes.
+- This analysis provides insights into the impact of stopword removal on the composition of the quotes.
+</div>
+
+### Words Starting with '@' (At the Rate) and Hashtags After Preprocessing:
+<div style="text-align: justify;"> 
+- Quantified the occurrence of words starting with '@' and '#' in the updated quotes.
+- This analysis reveals changes in social media-style content after stopword removal.
+</div>
+
+### Numeric Characters and Punctuation After Preprocessing:
+<div style="text-align: justify;"> 
+- Examined the count of numeric characters and punctuation marks in the updated quotes.
+- This analysis highlights shifts in numerical information and punctuation usage.
+</div> 
+<br>
+![featured after Image](assets/featured_aft_data.png)
