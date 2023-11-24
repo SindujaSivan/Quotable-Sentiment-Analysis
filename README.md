@@ -61,8 +61,9 @@ Compiled the extracted data into a structured DataFrame using the Pandas library
 ![featured Image](assets/featured_data.png)
 
 ## 3. Text Preprocessing and Advance analysis
+<p style="text-align: justify;"> 
 In our ongoing effort to refine the dataset for sentiment analysis and insightful exploration, we implemented advanced text preprocessing techniques. Specifically, we focused on removing stopwords and conducted a comprehensive analysis of the updated text.
-
+</p>
 ### Stopword Removal:
 <div style="text-align: justify;"> 
 - Utilized NLTK's list of English stopwords to remove common words that may not contribute significant meaning.
