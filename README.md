@@ -110,7 +110,7 @@ In our continued efforts to visually represent the essence of the quotes in a ca
 </div>
 
 <br>
-![wordcloud Image](assets/worldcloud.png)
+![wordcloud Image](assets/wordcloud.png)
 
 # Insights
 <p style="text-align: justify;"> The WordCloud analysis of the quotes dataset reveals a thematic landscape centered around key concepts. Prominent words such as "absolute," "without," "miracle," "thinking," "better," "know," and "ways" offer a consolidated perspective on the prevalent themes within the dataset</p>
